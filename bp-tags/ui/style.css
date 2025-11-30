@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+
+*{ box-sizing: border-box; }
+html,body{
+  margin:0; padding:0; width:100%; height:100%; overflow:hidden; background:transparent;
+  font-family: 'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+
+#tags-root{
+  position:fixed; inset:0; pointer-events:none; 
+}
+
+.tag{
+  position:absolute; 
+  transform: translate(-50%, -50%);
+  display:flex; align-items:center; gap:.45rem;
+  padding:.24rem .6rem; 
+  border-radius:100px; 
+  backdrop-filter: blur(var(--blur));
+  -webkit-backdrop-filter: blur(var(--blur));
+  border:1px solid rgba(255,255,255,.18);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0), 0 0 22px rgba(120,70,255,.25);
+}
+
+.tag-gradient{
+  position:absolute; inset:0; border-radius:inherit; z-index:-1;
+  background: linear-gradient(90deg, var(--c1), var(--c2));
+  opacity:.95;
+}
+
+.tag-gloss{
+  content:""; position:absolute; left:8%; right:8%; top:10%; height:38%;
+  border-radius:100px; background:linear-gradient(to bottom, rgba(255,255,255,.35), rgba(255,255,255,.06));
+}
+
+.tag .icon{
+  font-size: .9rem; color: rgba(255,255,255,.9);
+  filter: drop-shadow(0 0 6px rgba(255,255,255,.35));
+}
+
+.tag .label{
+  font-weight:700; letter-spacing:.3px; font-size:.90rem; color: var(--txt, #fff);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0);
+}
