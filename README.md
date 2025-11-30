@@ -7,12 +7,11 @@ Un sistema avanzado de tags personalizados que permite mostrar etiquetas únicas
 ##  Características
 
 -  **Tags completamente personalizables** - Colores, efectos glow, fuentes y más
--  **Asignación individual** - Tags específicos por Steam Hex, License o Player ID
+-  **Asignación individual** - Tags específicos por Steam Hex, License o Discord id
 -  **Sistema de prioridades** - Control total sobre qué tag mostrar
 -  **Compatibilidad dual** - Funciona con QBCore y QBox
 -  **Optimizado** - Bajo impacto en rendimiento
 -  **Fácil configuración** - Interfaz intuitiva en config.lua
--  **Tags por grupos y trabajos** - Sistema tradicional incluido
 
 - **tebex (byp4ss.net):** https://byp4ssnet.tebex.io/
 
