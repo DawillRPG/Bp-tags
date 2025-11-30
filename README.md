@@ -17,7 +17,8 @@ Un sistema avanzado de tags personalizados que permite mostrar etiquetas únicas
 - **tebex (byp4ss.net):** https://byp4ssnet.tebex.io/
 
 Comandos /tag
-https://r2.fivemanage.com/l8w6EGDWAWRJ4xRoECRSl/Screenshot2025-11-29205818.png
+[![Captura de pantalla](https://r2.fivemanage.com/l8w6EGDWAWRJ4xRoECRSl/Screenshot2025-11-29205818.png)](https://r2.fivemanage.com/l8w6EGDWAWRJ4xRoECRSl/Screenshot2025-11-29205818.png)
+
 
 ## Soporte
 
